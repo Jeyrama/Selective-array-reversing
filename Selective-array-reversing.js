@@ -35,3 +35,6 @@ function selReverse(array, length) {
 }
 
 // or
+
+const selReverse = S = (arr, l) =>
+  l * arr.length ? [...arr.slice(0, l).reverse(), ...S(arr.slice(l), l)] : arr;
