@@ -33,3 +33,5 @@ function selReverse(array, length) {
   }
   return result;
 }
+
+// or
